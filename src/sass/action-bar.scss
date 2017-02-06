@@ -1,0 +1,47 @@
+.action-bar {
+    padding: 4px 4px 0;
+    background-color: #f7f7f7;
+}
+
+.action-bar-drag {
+    padding: 4px 20px 8px;
+    -webkit-app-region: drag;
+}
+
+.action-bar-inner {
+    -webkit-app-region: no-drag;
+    display: flex;
+    white-space: nowrap
+}
+
+.action-bar-inner-item {
+    margin-left: 4px;
+}
+
+.action-bar-input-container {
+    flex-grow: 1;
+}
+
+.action-bar-inner-item:first-child {
+    margin-left: 0;
+}
+
+.input-prefix {
+    font-size: 24px;
+    display: inline;
+}
+
+.input {
+    font-size: 24px;
+    font-weight: 300;
+    border: none;
+    width: 100%;
+    padding: 0;
+    outline: none;
+    background: transparent;
+    color: #272727;
+}
+
+.input::selection {
+    background-color: #e3e3e3;
+}

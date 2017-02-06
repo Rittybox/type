@@ -1,0 +1,41 @@
+.results {
+    border-top: 1px solid #dfdfdf;
+    overflow-y: auto;
+}
+
+.result-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.result-item {
+    display: block;
+    padding: 8px 24px;
+    cursor: default;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.result-item:hover {
+    background-color: #f7f7f7;
+}
+
+.result-item-heading {
+    font-size: 18px;
+    margin: 0 0 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.result-item-info {
+    font-size: 13px;
+    color: #777777;
+}
+
+.results-info {
+    margin-top: 24px;
+    font-size: 13px;
+    color: #333;
+    text-align: center;
+}
